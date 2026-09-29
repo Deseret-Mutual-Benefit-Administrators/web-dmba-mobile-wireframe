@@ -1,0 +1,82 @@
+/* Oxygen, two weights. The app registers bold as its own family ("Oxygen-Bold")
+   because React Native can't synthesize bold from a custom family, and the tokens'
+   fontFamily entry says `"sans-bold": ["Oxygen-Bold"]` — so both families exist
+   here, and "Oxygen" also carries weight 700 for plain `font-bold` text. */
+@font-face {
+  font-family: "Oxygen";
+  src: url("/fonts/Oxygen.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url("/fonts/Oxygen-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oxygen-Bold";
+  src: url("/fonts/Oxygen-Bold.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* React Native layout defaults, so NativeWind class strings copied from the app
+     lay out the same way: every View is a flex column, position relative, and does
+     not shrink. `:where()` keeps specificity at zero, so any Tailwind class on the
+     element (`flex-row`, `hidden`, `absolute`, `shrink`…) still wins. Scoped to the
+     phone screen so the page chrome around the frame is untouched. */
+  /* In the app only the typography primitives and a few screens opt into Oxygen
+     (`font-sans` / `font-sans-bold`); every other Text renders in the platform
+     system font (SF Pro on iOS). Match that: the phone screen defaults to the
+     Apple system stack, and the Oxygen utility classes still win where used.
+     On a non-Apple machine this falls back to the OS UI font. */
+  :where(.rn-screen) {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif;
+  }
+  :where(.rn-screen) :where(div, button, a, label, nav, section, header, footer, main, ul, li) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+  :where(.rn-screen) :where(button) {
+    text-align: inherit;
+    cursor: pointer;
+  }
+  :where(.rn-screen) :where(button:disabled) {
+    cursor: default;
+  }
+  :where(.rn-screen) :where(input, textarea) {
+    background: transparent;
+    outline: none;
+    min-width: 0;
+  }
+  :where(.rn-screen) :where(p) {
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  /* `font-sans-bold` from the tokens sets the Oxygen-Bold family; this makes it
+     bold on the web even if that family has not loaded yet. */
+  .font-sans-bold {
+    font-weight: 700;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

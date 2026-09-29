@@ -1,0 +1,2092 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "back": "Back",
+    "done": "Done",
+    "search": "Search",
+    "noResults": "No results found",
+    "member": "Member",
+    "ok": "OK",
+    "faceId": "Face ID",
+    "touchId": "Touch ID",
+    "fingerprint": "Fingerprint",
+    "all": "All",
+    "unavailable": "We couldn't load this right now. Please try again in a few minutes.",
+    "unavailableValue": "Unavailable",
+    "accountsUnavailable": "We couldn't load your accounts right now. Please try again in a few minutes.",
+    "stepAnnouncement": "Step {{current}} of {{total}}: {{title}}",
+    "hints": {
+      "opensBrowser": "Opens in your browser",
+      "callsPhone": "Calls this number",
+      "opensShareSheet": "Opens the share sheet",
+      "opensCamera": "Opens the camera",
+      "opensPhotoLibrary": "Opens your photo library",
+      "opensDocumentPicker": "Opens your files",
+      "opensNewMessage": "Starts a new secure message",
+      "opensMap": "Opens the map",
+      "signsOut": "Signs you out of the app",
+      "opensContactForm": "Opens a new contact form"
+    }
+  },
+  "tabs": {
+    "dashboard": "Home",
+    "benefits": "Benefits",
+    "activity": "Activity",
+    "search": "Find Care",
+    "profile": "Profile"
+  },
+  "activity": {
+    "tabClaims": "Claims",
+    "tabHsaFsa": "HSA/FSA",
+    "tabPreauth": "Preauthorizations"
+  },
+  "auth": {
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "username": "Username",
+    "usernamePlaceholder": "Email or member ID",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signInButton": "Sign In",
+    "orSignInWith": "or sign in with",
+    "faceID": "Face ID",
+    "fingerprint": "Fingerprint",
+    "authenticating": "Authenticating...",
+    "biometricPrompt": "Authenticate to sign in",
+    "needHelp": "Need help signing in?",
+    "registerAccount": "Register for an account",
+    "fillFields": "Please enter your username and password.",
+    "mfaRequired": "Additional verification required",
+    "mfaPrompt": "Please verify your identity to access this information",
+    "copyright": "© Deseret Mutual Benefit Administrators",
+    "devModeLabel": "DEV MODE — No Okta",
+    "logoAccessibilityLabel": "DMBA — Deseret Mutual Benefit Administrators",
+    "signInWithBiometric": "Sign in with {{biometricLabel}}",
+    "mfaVerifyTitle": "Verify Your Identity",
+    "mfaChooseMethod": "Choose a verification method",
+    "mfaEnterCode": "Enter Verification Code",
+    "mfaCodePlaceholder": "Enter code",
+    "mfaCodeSentToPhone": "Code sent to {{phoneNumber}}",
+    "mfaCodeFromApp": "Enter the code from your authenticator app",
+    "mfaVerifyButton": "Verify",
+    "mfaCheckDevice": "Check Your Device",
+    "mfaPushMessage": "We sent a push notification to Okta Verify.\nTap \"Approve\" to continue.",
+    "mfaFactorOktaVerify": "Okta Verify (Push)",
+    "mfaFactorAuthApp": "Authenticator App",
+    "authFailed": "Authentication failed. Please try again.",
+    "pushDenied": "Push was denied.",
+    "pushTimeout": "Push timed out.",
+    "invalidCode": "Invalid code. Please try again.",
+    "sessionExpired": "Session expired. Please sign in with your password.",
+    "biometricFailed": "Biometric authentication failed",
+    "biometricUnavailable": "Biometric authentication unavailable",
+    "biometricEnrollTitle": "Enable {{biometricType}}?",
+    "biometricEnrollMessage": "Sign in faster next time with {{biometricType}}. You won't need to enter your password.",
+    "biometricEnrollNotNow": "Not Now",
+    "biometricEnrollEnable": "Enable",
+    "toggleLanguage": "Toggle language",
+    "signInToApp": "Sign in to DMBA",
+    "usePassword": "Use Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "mfaFactorSms": "SMS to {{phoneNumber}}",
+    "mfaFactorEmail": "Email to {{email}}",
+    "signedOutInactivity": "You were signed out after 30 minutes of inactivity. Sign in again to continue."
+  },
+  "dashboard": {
+    "greeting": "Welcome back",
+    "goodMorning": "Good morning",
+    "goodAfternoon": "Good afternoon",
+    "goodEvening": "Good evening",
+    "idCard": "ID Card",
+    "viewIdCard": "View ID Card",
+    "findProvider": "Find Provider",
+    "submitClaim": "Submit Claim",
+    "messages": "Messages",
+    "contactSupport": "Contact Support",
+    "recentClaims": "Recent Claims",
+    "noClaims": "No claims to display",
+    "viewAll": "View All",
+    "benefits": "Your Benefits",
+    "pendingClaims": "pending",
+    "pullToRefresh": "Pull to refresh",
+    "loadError": "Unable to load your dashboard. Pull down to retry.",
+    "switchMember": "View benefits for",
+    "self": "Self",
+    "dentalDeductible": "Dental Deductible",
+    "dentalAnnualMax": "Dental Annual Max",
+    "memberId": "Member ID",
+    "inNetwork": "In-Network",
+    "outOfNetwork": "Out-of-Network",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "max": "Max",
+    "dentalBenefits": "Dental Benefits",
+    "inNetworkDeductible": "In-Network Deductible",
+    "inNetworkOop": "Most you'll pay this year (in-network)",
+    "inNetworkOopDetail": "Once you hit this limit, DMBA pays 100% of covered costs for the rest of the year.",
+    "outOfNetworkDeductible": "Out-of-Network Deductible",
+    "outOfNetworkOop": "Most you'll pay this year (out-of-network)",
+    "annualBenefitLimit": "Annual Dental Benefit Limit",
+    "annualDeductible": "Annual Dental Deductible",
+    "lifetimeOrtho": "Lifetime Orthodontic Benefit",
+    "largeClaimsCoverage": "Large Claims Coverage — no dollar limit applies",
+    "family": "Family",
+    "allMembers": "All members combined",
+    "selfRelationship": "You (subscriber)",
+    "claimRowLabel": "{{provider}}, {{status}}, ${{amount}}",
+    "viewAllClaims": "View all claims",
+    "quickActionUnread_one": "{{label}}, {{count}} unread",
+    "quickActionUnread_other": "{{label}}, {{count}} unread",
+    "alerts": {
+      "dismiss": "Dismiss alert"
+    },
+    "customize": "Customize Dashboard",
+    "customization": {
+      "title": "Customize Dashboard",
+      "saveChanges": "Save Changes",
+      "discardChanges": "Discard Changes",
+      "discardGuard": {
+        "title": "Discard your changes?",
+        "message": "You have unsaved changes to your dashboard layout. If you leave now, they'll be lost."
+      },
+      "resetDefault": "Reset to Default",
+      "cardVisible": "{{card}} visible",
+      "cardHidden": "{{card}} hidden",
+      "toggleCardVisibility": "Toggle {{card}} visibility",
+      "moveUp": "Move {{card}} up",
+      "moveDown": "Move {{card}} down",
+      "saving": "Saving...",
+      "saveError": "Failed to save preferences. Please try again.",
+      "cards": {
+        "nudges": "Health Reminders",
+        "carousel": "Tips & Articles",
+        "deductible": "Health Plan",
+        "dental": "Dental Benefits",
+        "hsa": "HSA Account",
+        "fsa": "FSA Account",
+        "lpfsa": "Limited Purpose FSA",
+        "depc": "Dependent Care FSA",
+        "retirement": "401(k) Retirement",
+        "mrp": "Master Retirement",
+        "life": "Life Benefits",
+        "claims": "Recent Claims",
+        "quickActions": "Quick Actions"
+      },
+      "dragHandle": "Drag to reorder {{card}}",
+      "dragHint": "Press and hold the handle to drag a card",
+      "positionOf": "{{position}} of {{total}}"
+    },
+    "cardMoved": "{{label}} moved to position {{position}} of {{total}}"
+  },
+  "idCard": {
+    "title": "ID Card",
+    "flip": "Flip Card",
+    "download": "Download",
+    "addToWallet": "Add to Apple Wallet",
+    "requestNew": "Request New Card",
+    "requestNewSubject": "Request a new ID card",
+    "memberId": "Member ID",
+    "groupNumber": "Group Number",
+    "plan": "Plan",
+    "effectiveDate": "Effective Date",
+    "copied": "Copied!",
+    "cachedData": "Showing saved card",
+    "medical": "Medical",
+    "dental": "Dental",
+    "support": "Need help?",
+    "supportPhone": "1-800-777-DMBA (3622)",
+    "supportHours": "Mon–Fri, 8 AM – 5 PM MT",
+    "share": "Share",
+    "shareErrorTitle": "Couldn't share card",
+    "shareErrorMessage": "This card image needs to be refreshed. Please try again in a moment.",
+    "front": "Front",
+    "back": "Back",
+    "copyField": "Copy {{field}}",
+    "flipHintFront": "Shows the back of your card",
+    "flipHintBack": "Shows the front of your card",
+    "imageUnavailable": "Card image unavailable",
+    "retryHint": "Downloads the card image again"
+  },
+  "offline": {
+    "banner": "You're offline. Some data may be outdated."
+  },
+  "profile": {
+    "subTabs": {
+      "account": "Account",
+      "documents": "Documents",
+      "medicineCabinet": "Medicine Cabinet",
+      "settings": "Settings"
+    },
+    "coverageStatus": "Coverage Status",
+    "active": "Active",
+    "memberId": "Member ID",
+    "personalInfo": "Personal Information",
+    "personalInfoDesc": "Your personal details on file",
+    "contactInfo": "Contact Information",
+    "contactInfoDesc": "How we reach you",
+    "dateOfBirth": "Date of Birth",
+    "phoneNumber": "Phone Number",
+    "emailAddress": "Email Address",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Español",
+    "appVersion": "Version",
+    "accessIdCard": "Access ID Card",
+    "idCardSubLabel": "View and share your insurance card",
+    "documentsAndForms": "Documents & Forms",
+    "documentsDesc": "Access your plan documents",
+    "preferencesSettings": "Preferences & Settings",
+    "preferencesDesc": "Manage your app preferences",
+    "notifications": "Notifications",
+    "privacySecurity": "Privacy & Security",
+    "helpSupport": "Help & Support",
+    "comingInV04": "Coming in v0.4",
+    "comingInV05": "Coming in v0.5",
+    "appName": "DMBA Health Mobile App",
+    "mailingAddress": "Mailing Address",
+    "addressNote": "Your mailing address comes from your employer's records. To change it, contact your employer's HR or benefits office.",
+    "dependents": "Dependents",
+    "noDependents": "No dependents on file",
+    "familyMemberCount_one": "{{count}} member",
+    "familyMemberCount_other": "{{count}} members",
+    "familyPermissions": "Family permissions",
+    "whoCanSeeYourInfo": "Who can see your information",
+    "managePermissions": "Manage permissions"
+  },
+  "claims": {
+    "title": "Claims",
+    "status": "Status",
+    "amount": "Amount",
+    "provider": "Provider",
+    "dateOfService": "Date of Service",
+    "pending": "Pending",
+    "processing": "Processing",
+    "processed": "Processed",
+    "denied": "Denied",
+    "adjusted": "Adjusted",
+    "submitClaim": "Submit a Claim",
+    "loadError": "Unable to load claims. Please try again.",
+    "searchPlaceholder": "Search by provider or claim #",
+    "filterAll": "All",
+    "filterType": "Type",
+    "filterStatus": "Status",
+    "sortByDate": "Date",
+    "sortByAmount": "Amount",
+    "sortNewest": "Newest First",
+    "sortOldest": "Oldest First",
+    "sortHighest": "Highest Amount",
+    "sortLowest": "Lowest Amount",
+    "filterByMember": "Filter by member",
+    "changeSortField": "Change sort field",
+    "changeSortOrder": "Change sort order",
+    "resultCount": "{{count}} of {{total}} claims",
+    "emptyState": "No claims match your filters",
+    "emptyStateHint": "Try adjusting your search or filters",
+    "totalBilled": "Total Billed",
+    "yourResponsibility": "Your Responsibility",
+    "processedFootnote": "Based on processed claims",
+    "countLabel": "{{count}} of {{total}} claims",
+    "type": {
+      "all": "All Types",
+      "medical": "Medical",
+      "dental": "Dental",
+      "vision": "Vision",
+      "pharmacy": "Pharmacy",
+      "behavioral": "Behavioral"
+    },
+    "costChart": {
+      "totalsLabel": "Totals for {{year}}: total billed {{totalBilled}}, your responsibility {{yourResponsibility}}",
+      "title": "Cost Comparison",
+      "subtitle": "Analyze your spending trends over time",
+      "thisYear": "This Year",
+      "lastYear": "Last Year",
+      "totalBilled": "Total Billed",
+      "youPaid": "You Paid",
+      "noData": "No cost data available for this period",
+      "collapseLabel": "Collapse chart",
+      "expandLabel": "Expand chart"
+    },
+    "journey": {
+      "title": "Your Coverage Journey",
+      "subtitleOpen": "Where you are in your plan year",
+      "bandStatus": {
+        "beforeDeductible": "You're in the deductible phase",
+        "costSharing": "You're in the cost-sharing phase",
+        "fullyCovered": "You've reached your yearly in-network max",
+        "noDeductiblePlan": "No in-network deductible — cost sharing from day one",
+        "unknown": "Coverage progress not available yet"
+      },
+      "largeClaimsCoverage": "Your plan has no yearly out-of-pocket maximum. Large Claims Coverage is a separate policy that can pay covered care in full once your own costs pass its threshold — it has its own annual maximum, doesn't cover prescriptions, and pays after any other insurance. See your plan documents for the amounts.",
+      "progressCaption": "You've paid {{used}} of {{total}}",
+      "phaseState": {
+        "complete": "Complete",
+        "current": "You are here",
+        "upcoming": "Not reached yet",
+        "waived": "Not on your plan",
+        "unlimited": "Not on your plan"
+      },
+      "phases": {
+        "deductible": {
+          "title": "Deductible",
+          "description": "Until you reach your deductible, you pay the full allowed cost of most covered in-network care. Some services may need only a copay.",
+          "waivedDescription": "Your plan has no in-network deductible — cost sharing starts from day one."
+        },
+        "coinsurance": {
+          "title": "Cost Sharing (Coinsurance)",
+          "description": "You and your plan share the cost of covered in-network care, after any copay.",
+          "descriptionWithRate": "After any copay, you pay {{pct}}% of the allowed cost of covered in-network care and your plan pays the rest."
+        },
+        "oopMax": {
+          "title": "Most You'll Pay This Year (In-Network)",
+          "description": "Once you reach it, your plan pays the full cost of most covered in-network care for the rest of the year.",
+          "unlimitedTitle": "Yearly Out-of-Pocket Maximum"
+        }
+      },
+      "status": {
+        "beforeDeductible": "You're paying toward your deductible — your plan starts sharing costs once you reach it.",
+        "costSharing": "Deductible met! Your plan now shares covered in-network costs with you.",
+        "costSharingUnlimited": "Deductible met! Your plan now shares covered in-network costs with you. Your plan doesn't have a yearly out-of-pocket maximum, but Large Claims Coverage is a separate policy that can help with very large costs.",
+        "fullyCovered": "You've reached the most you'll pay this year for in-network care — from here, your plan pays the full cost of most covered in-network services.",
+        "noDeductiblePlan": "Your plan shares covered in-network costs with you from day one — there's no in-network deductible to meet."
+      },
+      "explainer": {
+        "unknown": "We don't have enough deductible or out-of-pocket information to show your coverage journey right now."
+      }
+    },
+    "submitClaimHint": "Opens the medical claim form"
+  },
+  "claimDetail": {
+    "title": "Claim Detail",
+    "costBreakdown": "Cost Breakdown",
+    "totalCharges": "Total Charges",
+    "allowedAmount": "DMBA's Approved Rate",
+    "planPaid": "Plan Paid",
+    "youOwe": "You Owe",
+    "benefitsApplied": "Benefits Applied",
+    "deductible": "Deductible",
+    "deductibleApplied": "Deductible Applied",
+    "copay": "Copay",
+    "coinsurance": "Your Share of the Cost",
+    "outOfPocketApplied": "Out-of-Pocket Applied",
+    "allowed": "Allowed",
+    "notCovered": "Not Covered",
+    "yourResponsibility": "Your Responsibility",
+    "serviceLines": "Services",
+    "cptCode": "Procedure Code",
+    "diagnosisCode": "Diagnosis Code",
+    "tapToExpand": "Tap to expand details",
+    "claimNumber": "Claim Number",
+    "submittedDate": "Submitted",
+    "processedDate": "Processed",
+    "downloadEob": "Cost Summary (EOB)",
+    "viewEob": "Cost Summary (EOB)",
+    "eobLoading": "Opening document...",
+    "eobExpired": "This document link has expired. Please try again.",
+    "eobErrorTitle": "Document Unavailable",
+    "eobErrorMessage": "The EOB document could not be loaded. Please try again or contact support.",
+    "contactSupport": "Contact Support",
+    "fileAppeal": "File an Appeal",
+    "appealSubject": "Appeal for claim {{claimNumber}}",
+    "statusMessage": {
+      "pending": "This claim has been received and is awaiting review.",
+      "processing": "This claim is currently being reviewed by our team.",
+      "processed": "This claim has been processed. See your cost breakdown below.",
+      "denied": "This claim was denied. You may file an appeal if you believe this is incorrect.",
+      "adjusted": "This claim has been adjusted from its original processing."
+    }
+  },
+  "benefits": {
+    "coverageTab": "Coverage",
+    "estimateCostsTab": "Estimate Costs",
+    "codesTab": "Codes",
+    "navigationTab": "Navigation",
+    "medicalTab": "Medical",
+    "dentalTab": "Dental",
+    "pharmacyTab": "Pharmacy",
+    "searchBenefits": "Search benefits...",
+    "inNetwork": "In-Network",
+    "outOfNetwork": "Out-of-Network",
+    "priorAuthRequired": "Approval Required",
+    "priorAuthRequiredDetail": "Get DMBA's approval first. Without it, your claim may not be paid.",
+    "noResults": "No benefits match your search",
+    "aiChatTitle": "AI Benefits Advisor",
+    "copay": "Copay",
+    "coinsurance": "Your % of the cost",
+    "annualMax": "Annual Max",
+    "deductible": "Deductible",
+    "managedBy": "Managed by",
+    "pharmacyPhone": "Phone",
+    "overallCoverage": "Overall Coverage",
+    "inNetworkCoinsurance": "In-Network Coinsurance",
+    "outOfNetworkCoinsurance": "Out-of-Network Coinsurance",
+    "afterDeductible": "after deductible",
+    "ofAllowable": "of the approved amount",
+    "collapseCategory": "Collapse {{category}}",
+    "expandCategory": "Expand {{category}}",
+    "procedureCodes": {
+      "title": "Procedure Codes",
+      "searchPlaceholder": "Search by code or description...",
+      "totalResults": "{{count}} results",
+      "noResults": "No procedure codes found",
+      "priorAuth": "Prior Auth Required"
+    },
+    "documents": {
+      "title": "Documents & Forms",
+      "planDocuments": "Plan Documents",
+      "taxForms": "Tax Forms",
+      "legal": "Legal",
+      "noDocuments": "No documents available",
+      "download": "Download",
+      "view": "View",
+      "phiWarning": "Contains personal health information"
+    },
+    "noDentalPlan": {
+      "title": "No dental coverage on file",
+      "message": "We don't see a dental plan for you. If you think this is a mistake, contact DMBA."
+    },
+    "governingDocument": "Governing document",
+    "planBasics": "Plan basics",
+    "needsPriorApproval": "Needs prior approval",
+    "notCoveredOnYourPlan": "Not covered on your plan",
+    "notStated": "Not shown here",
+    "expandBenefit": "Expand {{name}}",
+    "collapseBenefit": "Collapse {{name}}",
+    "topicLoadError": "Couldn't load the details for this benefit.",
+    "noAdditionalDetails": "No additional details for this benefit.",
+    "outOfPocketMax": "Most you'll pay this year",
+    "sectionKind": {
+      "whatItIs": "What it is",
+      "needToKnow": "Need to know",
+      "limitations": "Limits and exclusions",
+      "planComparisonNote": "Coverage notes",
+      "planFacts": "Your plan",
+      "details": "Details"
+    }
+  },
+  "costCompare": {
+    "title": "Compare Procedure Costs",
+    "description": "See estimated prices for procedures and providers before you go. Estimates come from MyMedicalShopper — the same tool available on dmba.com — and open in a secure browser window.",
+    "cta": "Compare procedure prices",
+    "opening": "Opening…",
+    "notAvailable": "Price comparison isn't available for your plan yet. Call Member Services at 1-800-777-DMBA (3622) for help estimating costs.",
+    "loadError": "We couldn't open the price comparison tool right now."
+  },
+  "careNavigation": {
+    "financialTab": "Financial",
+    "mentalHealthTab": "Mental Health",
+    "clinicalTab": "Clinical/Medical",
+    "tagline": "Maximize your health benefits and plan for the future",
+    "coreScore": {
+      "title": "Take the Core Score",
+      "subtitle": "A quick assessment of your financial wellness",
+      "cta": "Take the Core Score assessment"
+    },
+    "schedule": {
+      "title": "Schedule with a planner",
+      "subtitle": "Book time with a Financial Planning team member — appointments often open up 2-3 weeks out",
+      "cta": "Schedule an appointment with a financial planner"
+    },
+    "checklist": {
+      "title": "Financial Planning Checklist",
+      "loadError": "Unable to load your checklist. Please try again.",
+      "retry": "Retry",
+      "saveError": "Failed to save your checklist. Please try again.",
+      "beneficiariesUpdated": "Beneficiaries updated",
+      "beneficiariesUpdatedDescription": "Make sure your beneficiary designations reflect your current wishes.",
+      "full401kMatch": "Getting the full 401(k) match",
+      "full401kMatchDescription": "Confirm you're contributing enough to receive DMBA's full employer match.",
+      "lifeInsuranceReview": "Life insurance reviewed",
+      "lifeInsuranceReviewDescription": "Check that your life insurance coverage still fits your family's needs."
+    },
+    "resources": {
+      "lifeLongFinancialSecurity": "Life Long Financial Security",
+      "lifeLongFinancialSecurityDescription": "Educational resources to help you build long-term financial security.",
+      "open": "Open",
+      "openLabel": "Open {{title}}"
+    },
+    "meetTheTeam": {
+      "title": "Meet the team",
+      "plannerLabel": "{{name}}, {{credentials}}"
+    },
+    "disclaimer": "This content is for educational purposes only and is not personalized financial, tax, or legal advice. Consult a qualified professional about your specific situation.",
+    "seeYourCosts": "See what you'll pay on the Coverage tab",
+    "messaging": {
+      "callDmba": "Call DMBA"
+    },
+    "mentalHealth": {
+      "intro": "Mental health and substance use treatment is covered like other medical care on your plan. What you pay depends on your plan — check the Coverage tab for your exact costs.",
+      "contactCta": "Ask about mental health coverage",
+      "coveredServices": "Covered services",
+      "requirements": "Requirements",
+      "behavioralHealth": {
+        "title": "Mental Health & Substance Use Care",
+        "summary": "Therapy, psychiatric care, and higher levels of care are all covered benefits.",
+        "bullet1": "Diagnostic evaluation",
+        "bullet2": "Individual and group therapy",
+        "bullet3": "Medication evaluation and management",
+        "bullet4": "Inpatient, residential, partial hospitalization (PHP), and intensive outpatient (IOP) programs",
+        "bullet5": "Psychological and neuropsychological testing",
+        "notCovered": "Not covered: marriage and family counseling, educational groups, and court-ordered treatment.",
+        "preauth": "Inpatient, residential, PHP, and IOP care need DMBA's approval first. In an emergency, get care — then have your provider call DMBA within two business days of admission."
+      },
+      "abaTherapy": {
+        "title": "ABA Therapy for Autism",
+        "summary": "Covered for a confirmed autism spectrum disorder diagnosis when provided by a board-certified behavior analyst (BCBA or BCBA-D).",
+        "bullet1": "A diagnosis from a psychiatrist, psychologist, neurologist, or developmental pediatrician",
+        "bullet2": "A functional behavioral assessment before therapy starts",
+        "preauth": "Preauthorization is required — including the initial assessment.",
+        "byuNote": "Not available on BYU student plans."
+      },
+      "erVsUrgentCare": {
+        "title": "Emergency Room vs. Urgent Care",
+        "summary": "Both are covered. For anything that isn't life-threatening, urgent care is usually faster and costs you less.",
+        "bullet1": "Use the emergency room for life-threatening emergencies",
+        "bullet2": "Follow-up care at the ER costs the same as a regular ER visit — see your doctor or urgent care instead",
+        "bullet3": "Other services during a visit, like labs and imaging, are covered at their own benefit levels",
+        "preauth": "If a visit turns into a hospital stay, your provider needs to call DMBA within two business days."
+      },
+      "disclaimer": "This is a summary of how these benefits work. Your plan's coverage details are on the Coverage tab, and your plan documents are the final word. If you're in crisis, call or text 988."
+    },
+    "clinical": {
+      "title": "Care Navigation",
+      "summary": "If you're facing a serious or complex diagnosis, DMBA can help you understand your options and coordinate your care.",
+      "contactCta": "Contact Care Navigation",
+      "complexDiagnosis": {
+        "title": "Support for a complex diagnosis",
+        "summary": "When you're dealing with a serious condition, you don't have to figure out your benefits and your care on your own.",
+        "bullet1": "A dedicated point of contact who learns your situation",
+        "bullet2": "Help understanding your coverage and out-of-pocket costs",
+        "bullet3": "Help scheduling and coordinating appointments",
+        "bullet4": "Help with preauthorization paperwork and follow-up",
+        "cta": "Ask about diagnosis support"
+      },
+      "treatmentOptions": {
+        "title": "Understanding your treatment options",
+        "summary": "Treatment choices can be overwhelming. We can help you understand what's available and what to expect.",
+        "bullet1": "Plain-language explanations of treatment approaches",
+        "bullet2": "Help preparing questions for your doctor",
+        "bullet3": "Guidance on getting a second opinion",
+        "cta": "Ask about treatment options"
+      },
+      "specialists": {
+        "title": "Finding and coordinating specialists",
+        "summary": "We can help you find the right in-network specialists and keep your care team on the same page.",
+        "bullet1": "Finding in-network specialists for your condition",
+        "bullet2": "Keeping referrals and approvals on track",
+        "bullet3": "Helping your providers share information",
+        "cta": "Ask about specialists"
+      },
+      "scenarios": {
+        "title": "When to reach out",
+        "recentDiagnosis": {
+          "title": "Recent complex diagnosis",
+          "description": "You've been diagnosed with cancer, heart disease, an autoimmune disorder, or another serious condition."
+        },
+        "multipleSpecialists": {
+          "title": "Multiple specialists",
+          "description": "Your care involves several doctors and you need help coordinating between them."
+        },
+        "treatmentDecision": {
+          "title": "A major treatment decision",
+          "description": "You're weighing treatment options and want help understanding them."
+        },
+        "ongoingCondition": {
+          "title": "Managing an ongoing condition",
+          "description": "You're living with a long-term condition and want support with benefits and care."
+        }
+      },
+      "disclaimer": "Care Navigation services are described here in general terms. Call DMBA to confirm what's available for your situation."
+    }
+  },
+  "search": {
+    "title": "Find Care",
+    "tabs": {
+      "providers": "Providers",
+      "facilities": "Facilities",
+      "pharmacies": "Pharmacies"
+    },
+    "providers": {
+      "searchPlaceholder": "Name or specialty...",
+      "nameSearchPlaceholder": "Filter by provider name..."
+    },
+    "facilities": {
+      "searchPlaceholder": "Search facilities...",
+      "typeLabel": "Facility Type"
+    },
+    "pharmacies": {
+      "searchPlaceholder": "Search pharmacies...",
+      "locationRequiredTitle": "Location Required",
+      "locationRequiredMessage": "Pharmacy search requires a location. Please enter a ZIP code or tap \"Use My Location\" to find nearby pharmacies.",
+      "navitusContext": "Your pharmacy benefits are managed by Navitus. In-network pharmacies shown are part of the Navitus pharmacy network.",
+      "mailOrder": "Mail-Order Pharmacy",
+      "mailOrderDescription": "Save on maintenance medications with Navitus mail-order delivery."
+    },
+    "medications": {
+      "searchPlaceholder": "Drug name or NDC...",
+      "tier": "Level {{tier}}",
+      "copay": "Copay",
+      "ndcCode": "NDC",
+      "addToMedicineCabinet": "Add to Medicine Cabinet",
+      "priorAuthUnavailable": "Prior approval: unavailable"
+    },
+    "clearSearch": "Clear search",
+    "clearSpecialty": "Remove specialty filter",
+    "open24Hours": "Open 24 Hours",
+    "useMyLocation": "Use My Location",
+    "zipPlaceholder": "ZIP code",
+    "zipRequired": "Enter ZIP or use location",
+    "searchButton": "Search",
+    "reset": "Reset",
+    "noResults": "No results found",
+    "listView": "List",
+    "mapView": "Map",
+    "expandMap": "View full-screen map",
+    "inNetwork": "In-Network",
+    "outOfNetwork": "Out-of-Network",
+    "call": "Call",
+    "directions": "Directions",
+    "share": "Share",
+    "addContact": "Add Contact",
+    "locationDenied": "Location access is off for DMBA. Turn it on in Settings, or enter a ZIP code instead.",
+    "locationError": "We couldn't get your location. Please try again, or enter a ZIP code.",
+    "openSettings": "Open Settings",
+    "locationRequiredMessage": "Enter a ZIP code or tap the location icon to find results near you.",
+    "results": "Results",
+    "filter": "Filter",
+    "acceptingPatients": "Accepting New Patients",
+    "estimatedCost": "Est. {{cost}} visit",
+    "distance": "{{miles}} mi",
+    "dmbaNetwork": "DMBA Network",
+    "notDmbaNetwork": "Not in DMBA Network",
+    "allianceBanner": "Your Deseret Alliance plan works with Medicare providers. Network status shown may differ from your Medicare coverage. Visit medicare.gov or call DMBA for help finding a provider.",
+    "callPharmacy": "Call {{name}}",
+    "filterByFacilityType": "Filter by {{type}}",
+    "medicineCabinet": {
+      "title": "Medicine Cabinet",
+      "openHint": "Opens coverage details for this medication",
+      "rxHistory": "Filled {{date}}",
+      "manuallyAdded": "Manually added",
+      "remove": "Remove",
+      "removeFromCabinet": "Remove from Medicine Cabinet",
+      "empty": "No medications saved",
+      "inCabinet": "In Your Medicine Cabinet",
+      "added": "Added",
+      "addedMessage": "{{name}} has been added to your Medicine Cabinet.",
+      "rxBadge": "Rx"
+    },
+    "myMedicineCabinet": "My Medicine Cabinet",
+    "providerDetail": {
+      "practiceInformation": "Practice Information",
+      "about": "About",
+      "credentials": "Credentials",
+      "yearsExperience": "{{years}} years experience",
+      "boardCertified": "Board Certified",
+      "languages": "Languages",
+      "hospitalAffiliations": "Hospital Affiliations",
+      "officeHours": "Office Hours",
+      "contact": "Contact",
+      "acceptingPatients": "Accepting New Patients",
+      "notAcceptingPatients": "Not Accepting New Patients",
+      "closed": "Closed"
+    },
+    "facilityDetail": {
+      "facilityInformation": "Facility Information",
+      "open24Hours": "Open 24 Hours",
+      "services": "Services",
+      "hours": "Hours",
+      "beds": "Beds",
+      "contact": "Contact",
+      "preauthWarning": "Planned hospital stays and surgeries require prior approval from DMBA. Call DMBA before scheduling an admission."
+    },
+    "medicationDetail": {
+      "copayCaveat": "A standard tier figure from the pharmacy benefit, not based on your plan. What you pay depends on your plan's deductible and coinsurance — see Benefits › Coverage › Pharmacy.",
+      "notFoundTitle": "Details not available",
+      "notFoundMessage": "We couldn't find coverage details for {{name}}. Try searching for it by name.",
+      "searchAction": "Search medications",
+      "coverageTier": "Coverage Tier",
+      "about": "About",
+      "requirements": "Requirements",
+      "therapeuticAlternatives": "Therapeutic Alternatives",
+      "priorAuthRequired": "Prior Authorization Required",
+      "priorAuthLabel": "Prior approval",
+      "stepTherapyLabel": "Step therapy",
+      "priorAuthNotice": "This medication requires prior approval from Navitus before it will be covered. Contact Navitus before filling your prescription.",
+      "stepTherapyRequired": "Try lower-cost options first",
+      "stepTherapyDetail": "Your plan requires trying lower-cost medications before this one will be covered. Contact Navitus for next steps.",
+      "copyNdc": "Copy NDC code",
+      "ndcCopied": "NDC code copied",
+      "tierExplanation": "Level 1 = lowest cost (generic), Level 2 = preferred brand, Level 3 = non-preferred, Level 4 = specialty (highest cost)",
+      "tierInfo": "Coverage tier information"
+    },
+    "mapUnavailable": "Map not available"
+  },
+  "financialAccounts": {
+    "hsa": {
+      "title": "HSA Account",
+      "availableToSpend": "Available to Spend",
+      "cashBalance": "Cash Balance",
+      "investmentBalance": "Investment Balance",
+      "investmentNote": "Invested funds are not immediately available for spending",
+      "totalBalance": "Total Balance",
+      "ytdContributions": "YTD Contributions",
+      "employerContributions": "Employer Contributions",
+      "annualLimit": "Annual Limit",
+      "expand": "Expand HSA Account",
+      "collapse": "Collapse HSA Account",
+      "ytdContributionsForYear": "{{year}} Contributions",
+      "annualLimitForYear": "{{year}} IRS Limit",
+      "coverageTier": {
+        "selfOnly": "Self-only coverage",
+        "family": "Family coverage"
+      },
+      "catchUpNote": "If you're 55 or older, you can contribute an extra {{amount}} in {{year}}."
+    },
+    "fsa": {
+      "title": "FSA Account",
+      "balance": "Balance",
+      "annualElection": "Amount Set Aside This Year",
+      "remainingBalance": "Remaining Balance",
+      "ytdDisbursements": "YTD Disbursements",
+      "used": "Used",
+      "remaining": "Remaining",
+      "useItOrLoseIt": "Some unused funds may carry over into next year. Anything above your plan's carryover limit is forfeited once the plan year ends.",
+      "expand": "Expand FSA Account",
+      "collapse": "Collapse FSA Account",
+      "progressBar": "FSA used: {{used}} of {{total}}"
+    },
+    "lpfsa": {
+      "title": "Limited Purpose FSA",
+      "eligibility": "For dental & vision expenses",
+      "cardOrder": "Dental and vision card charges come out of this account first, before your HSA.",
+      "annualElection": "Amount Set Aside This Year",
+      "used": "Used",
+      "remaining": "Remaining",
+      "remainingBalance": "Remaining Balance",
+      "useItOrLoseIt": "Some unused funds may carry over into next year. Anything above your plan's carryover limit is forfeited once the plan year ends.",
+      "progressBar": "Limited Purpose FSA used: {{used}} of {{total}}",
+      "expand": "Expand Limited Purpose FSA",
+      "collapse": "Collapse Limited Purpose FSA"
+    },
+    "depc": {
+      "title": "Dependent Care FSA",
+      "elected": "Amount Set Aside This Year",
+      "reimbursedToDate": "Reimbursed to Date",
+      "availableToSpend": "Available to Spend",
+      "noRolloverNote": "Dependent Care FSA funds become available as they're taken from your paycheck — you may not be able to spend your full annual amount all at once.",
+      "useItOrLoseIt": "Unused Dependent Care FSA funds may not carry over to next year. Check your plan rules for carryover or grace period details.",
+      "progressBar": "Dependent Care FSA reimbursed: {{used}} of {{total}}",
+      "expand": "Expand Dependent Care FSA",
+      "collapse": "Collapse Dependent Care FSA"
+    },
+    "guardrails": {
+      "hsaFsaConflict": "Having both a Health Savings Account and a general-purpose Healthcare FSA can conflict under IRS rules. A Limited Purpose FSA (for dental & vision expenses) is the HSA-compatible option — contact DMBA if you have questions about your accounts.",
+      "spendOrderTip": "Tip: FSA-type funds (FSA, Limited Purpose FSA, Dependent Care FSA) usually expire before HSA funds — spending those dollars first usually makes sense."
+    },
+    "retirement": {
+      "title": "401(k) Retirement",
+      "currentBalance": "Current Balance",
+      "vestedBalance": "Vested Balance",
+      "vestedNote": "Amount you keep if you leave your employer",
+      "investments": "Fund Holdings",
+      "unnamedFund": "Fund",
+      "loans": "Loans",
+      "loanBalance": "Loan Balance",
+      "effectiveDate": "Effective Date",
+      "viewFullAccount": "View Full Account",
+      "openEmpower": "Open Empower App",
+      "openEmpowerHint": "Opens the Empower mobile app or App Store if not installed",
+      "openEmpowerFailed": "Couldn't open Empower. Try again or visit empower-retirement.com in your browser.",
+      "expand": "Expand 401(k) Retirement",
+      "collapse": "Collapse 401(k) Retirement"
+    },
+    "mrp": {
+      "title": "Master Retirement",
+      "yearsOfCredit": "Years of Benefit Credit",
+      "years": "years",
+      "estimatedMonthlyPayment": "Estimated Monthly Payment",
+      "atAge": "at age {{age}}",
+      "asOf": "as of {{date}}",
+      "estimateDisclaimer": "This estimate is based on your current years of service and salary. Actual benefit may differ. Contact DMBA Financial Planning for details.",
+      "expand": "Expand Master Retirement",
+      "collapse": "Collapse Master Retirement"
+    },
+    "life": {
+      "title": "Life Benefits",
+      "groupTermLife": "Group Term Life",
+      "supplementalGtl": "Supplemental GTL",
+      "adnd": "24-Hour AD&D",
+      "notApplicable": "N/A",
+      "selectMember": "Select family member",
+      "expand": "Expand Life Benefits",
+      "collapse": "Collapse Life Benefits",
+      "selectMemberPicker": "Select family member, {{name}}"
+    },
+    "transactions": {
+      "searchPlaceholder": "Search transactions...",
+      "all": "All",
+      "approved": "Approved",
+      "pending": "Pending",
+      "processing": "Processing",
+      "denied": "Denied",
+      "noTransactions": "No transactions found",
+      "hsaFunds": "Available HSA Funds",
+      "hsaBalance": "HSA Account",
+      "availableToSpend": "Available to spend",
+      "fsaAccount": "FSA Account",
+      "lpfsaBalance": "Limited Purpose FSA",
+      "lpfsaAccount": "Limited Purpose FSA",
+      "depcBalance": "Dependent Care FSA",
+      "depcAccount": "Dependent Care FSA",
+      "cashBalance": "Cash Balance",
+      "investmentBalance": "Invested",
+      "totalBalance": "Total Balance",
+      "annualElection": "Amount Set Aside This Year",
+      "remaining": "Remaining",
+      "loadError": "Unable to load transactions. Please try again.",
+      "loadingMore": "Loading more...",
+      "transactionRow": "{{merchant}}, {{amount}}, {{status}}, {{date}}",
+      "settledOn": "Settled",
+      "claimant": "For",
+      "showDetails": "Show details",
+      "hideDetails": "Hide details",
+      "attachReceipt": "Send a receipt",
+      "attachReceiptHint": "Photograph the receipt for this card payment",
+      "viewReceipt": "View receipt",
+      "viewReceiptHint": "Open the receipt you sent for this payment"
+    },
+    "common": {
+      "loadError": "Unable to load account data. Pull to refresh.",
+      "noAccount": "Account not available",
+      "status": "Status",
+      "active": "Active"
+    },
+    "viewingOnBehalf": "Viewing {{name}}'s account",
+    "onBehalfBalancesOnly": "Only balances are shared with you. Activity and claims stay private to the account holder.",
+    "planYear": {
+      "current": "Current",
+      "selectorLabel": "Plan Year",
+      "status": {
+        "upcoming": "This plan year starts {{startDate}}.",
+        "runOut": "This plan year ended {{endDate}}. The last day to submit claims for it is {{deadline}}.",
+        "closed": "This plan year ended {{endDate}}. The last day to submit claims for it was {{deadline}}."
+      },
+      "badge": {
+        "upcoming": "Not started",
+        "ended": "Ended",
+        "closed": "Closed"
+      },
+      "lifetimeNote": "This account is yours. The money in it doesn't expire, and there's no deadline to spend it."
+    },
+    "details": {
+      "planYearRange": "Plan year",
+      "lastDayToSpend": "Last day to spend",
+      "submitClaimsBy": "Last day to submit claims",
+      "contributions": "Contributions",
+      "additionalDeposits": "Additional deposits"
+    },
+    "shortName": {
+      "hsa": "HSA",
+      "fsa": "FSA",
+      "lpfsa": "LP-FSA",
+      "depc": "Dep. Care"
+    },
+    "accountsList": {
+      "heading": "Your accounts",
+      "available": "{{amount}} available",
+      "balanceUnavailable": "Balance unavailable",
+      "rowLabel": "{{name}}, {{status}}",
+      "rowLabelWithBalance": "{{name}}, {{status}}, {{balance}} available",
+      "statusCurrent": "Current plan year",
+      "statusOngoing": "Ongoing account",
+      "empty": "You don't have any spending accounts.",
+      "loadError": "We couldn't load your accounts. Please try again."
+    },
+    "accountDetail": {
+      "openHint": "Shows this account's balance, dates, and transactions",
+      "empty": "No transactions for this account yet.",
+      "emptyEndedPlanYear": "No transactions were recorded for this plan year.",
+      "emptyForFilter": "No transactions match your search.",
+      "loadError": "We couldn't load this account. Please try again.",
+      "transactionsLoadError": "We couldn't load this account's transactions. Please try again.",
+      "notFoundTitle": "Account",
+      "notFound": "We couldn't find that account."
+    },
+    "cards": {
+      "title": "Benefit Cards",
+      "entryPoint": "Benefit Cards",
+      "entryPointHint": "View your debit card details",
+      "cardEnding": "•••• {{last4}}",
+      "dependent": "Dependent",
+      "primary": "Primary card",
+      "issued": "Issued {{date}}",
+      "effective": "Effective",
+      "expires": "Expires",
+      "activated": "Activated",
+      "empty": "No benefit cards found",
+      "loadError": "Unable to load card details. Please try again.",
+      "status": {
+        "new": "New",
+        "active": "Active",
+        "tempInactive": "Temporarily Inactive",
+        "permInactive": "Inactive",
+        "lostStolen": "Lost/Stolen",
+        "unknown": "Unknown"
+      },
+      "actions": {
+        "reportLostStolen": "Report lost or stolen",
+        "deactivate": "Deactivate card",
+        "requestReplacement": "Request replacement card",
+        "reportLostStolenConfirmTitle": "Report card lost or stolen?",
+        "reportLostStolenConfirmBody": "This deactivates your card immediately to prevent unauthorized use. You can request a replacement card afterward.",
+        "reportLostStolenConfirmCta": "Report Lost/Stolen",
+        "deactivateConfirmTitle": "Deactivate this card?",
+        "deactivateConfirmBody": "This deactivates your card immediately. You can request a replacement card afterward.",
+        "deactivateConfirmCta": "Deactivate",
+        "requestReplacementConfirmTitle": "Request a replacement card?",
+        "requestReplacementConfirmBody": "A new card will be mailed to the address we have on file.",
+        "requestReplacementConfirmCta": "Request Replacement",
+        "reportLostStolenSuccess": "Card reported lost or stolen. Your card list has been updated.",
+        "deactivateSuccess": "Card deactivated. Your card list has been updated.",
+        "requestReplacementSuccess": "Replacement card requested. Your card list has been updated.",
+        "errorTitle": "Card action failed",
+        "errorBody": "We couldn't complete this request. Please try again.",
+        "serviceUnavailable": "The card service is temporarily unavailable. Please try again later."
+      }
+    },
+    "scanner": {
+      "title": "Eligibility Scanner",
+      "entryPoint": "Check if an item is eligible",
+      "entryPointHint": "Scan or enter a barcode to check FSA/HSA eligibility",
+      "scanPrompt": "Point your camera at a barcode",
+      "manualEntryLabel": "Enter barcode number",
+      "manualEntryPlaceholder": "UPC or GTIN number",
+      "checkButton": "Check",
+      "invalidCode": "Enter a valid 12-digit UPC or 14-digit barcode number.",
+      "permissionTitle": "Camera access needed",
+      "permissionBody": "Turn on camera access in Settings to scan barcodes, or enter the number manually below.",
+      "openSettings": "Open Settings",
+      "scanAgain": "Scan again",
+      "checking": "Checking eligibility…",
+      "unavailable": "We couldn't check eligibility right now. Please try again.",
+      "loadError": "Something went wrong. Please try again.",
+      "verdictDetailLabel": "Details from the product catalog",
+      "verdict": {
+        "eligible": "This item is FSA/HSA eligible.",
+        "dualEligible": "This item may be eligible depending on how it's used — check with DMBA if you're not sure.",
+        "notEligible": "This item is not FSA/HSA eligible.",
+        "notFound": "We couldn't find eligibility information for this item.",
+        "unknown": "We couldn't determine eligibility for this item."
+      }
+    },
+    "activity": {
+      "receiptsUnavailable": "Receipts couldn't be loaded right now. Try again later.",
+      "type": {
+        "claim": "Claim",
+        "manualClaim": "Manual Claim",
+        "deposit": "Deposit",
+        "cardTransaction": "Card Transaction",
+        "other": "Other"
+      },
+      "noDescription": "Account activity",
+      "billedAmount": "Billed",
+      "allowedAmount": "Allowed",
+      "coveredAmount": "Covered",
+      "paidAmount": "Paid from account",
+      "deductibleAmount": "Applied to deductible",
+      "balanceDue": "Balance due",
+      "denialReason": "Denial reason",
+      "denialComment": "Denial detail",
+      "checkNumber": "Check #{{number}}",
+      "reimbursedVia": "Reimbursed via",
+      "reimbursedOn": "Reimbursed on",
+      "claimant": "For",
+      "emptyForAccount": "No claims or payments for this account.",
+      "empty": "No claims or payments found.",
+      "allTitle": "All Claims & Payments",
+      "allEntryPoint": "All claims & payments",
+      "allEntryPointHint": "View claims and payments across all your spending accounts",
+      "loadError": "Unable to load account activity. Please try again.",
+      "activityRow": "{{description}}, {{amount}}, {{status}}, {{date}}",
+      "showDetails": "Show details",
+      "hideDetails": "Hide details"
+    },
+    "balanceDue": {
+      "bannerTitle": "You have a balance due: {{amount}}",
+      "lineItem": "{{plan}} — {{amount}}",
+      "otherAccount": "Account"
+    },
+    "dependents": {
+      "title": "Covered on your account",
+      "unnamed": "Covered dependent",
+      "row": "{{name}}, {{relationship}}",
+      "rowWithStatus": "{{name}}, {{relationship}}, {{status}}",
+      "relationship": {
+        "unknown": "Relationship not on file",
+        "spouse": "Spouse",
+        "child": "Child",
+        "domesticPartner": "Domestic Partner",
+        "other": "Other"
+      },
+      "status": {
+        "all": "All",
+        "new": "New",
+        "active": "Active",
+        "tempInactive": "Temporarily Inactive",
+        "permInactive": "Inactive",
+        "terminated": "Terminated",
+        "enrollment": "Pending Enrollment"
+      }
+    },
+    "extras": {
+      "sectionTitle": "Payments & receipts",
+      "sectionSubtitle": "Across all your spending accounts: card charges that may need documentation, and money being paid back to you.",
+      "hsaSectionTitle": "HSA payments",
+      "hsaSectionSubtitle": "Payments made from your HSA, and any that didn't go through.",
+      "itemsHeading": "Recent items",
+      "paybackHeading": "Money being paid back",
+      "hsaFailedHeading": "These didn't go through",
+      "hsaPendingHeading": "On the way",
+      "needsReceipt": "Needs a receipt",
+      "paidBackOn": "Paid you back on {{date}}",
+      "paidBack": "Paid you back",
+      "onItsWay": "On its way",
+      "hsaPaymentTitle": "Payment from your HSA",
+      "paymentFailed": "Didn't go through — contact Member Services",
+      "empty": "Nothing here yet.",
+      "loadError": "We couldn't load this. Please try again.",
+      "seeAll": "See all",
+      "seeAllHint": "Shows the rest of this list"
+    }
+  },
+  "notFound": {
+    "title": "Oops!",
+    "message": "This screen doesn't exist.",
+    "goHome": "Go to home screen"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "subtitle": "We're here to help with your benefits",
+    "sendSecureMessage": "Send a secure message",
+    "sendSecureMessageNote": "Get a written response from Member Services",
+    "businessHours": "Business Hours",
+    "businessHoursLabel": "Business hours card",
+    "mountainTime": "Mountain Time",
+    "daysMWF": "Mon / Tue / Wed / Fri",
+    "daysThursday": "Thursday",
+    "hours8to5": "8:00 AM – 5:00 PM",
+    "hours9to5": "9:00 AM – 5:00 PM",
+    "phoneDirectory": "Phone Numbers",
+    "callNow": "Tap to call",
+    "close": "Close",
+    "saltLake": "Salt Lake City Area",
+    "tollFree": "Toll Free",
+    "hawaii": "Hawaii",
+    "hawaiiNote": "8:00 AM – 5:00 PM HAST",
+    "missionaryMedical": "Missionary Medical",
+    "canadianBenefits": "Canadian Benefits",
+    "uhcInformation": "UHC Information",
+    "uhcEligibility": "UHC Patient Eligibility",
+    "metlifeDental": "MetLife Dental",
+    "metlifeDentalNote": "Outside Utah & Idaho",
+    "tty": "Hearing Impaired (TTY)",
+    "emergencyNote": "For medical emergencies, call 911. After-hours urgent care questions can be directed to your plan's nurse line.",
+    "callPhoneEntry": "Call {{label}} — {{number}}"
+  },
+  "documents": {
+    "download": "Download"
+  },
+  "priorAuth": {
+    "detailTitle": "Preauthorization Detail",
+    "statusSubmitted": "Submitted",
+    "statusInProgress": "In Progress",
+    "statusApproved": "Approved",
+    "statusDenied": "Not Approved",
+    "statusClosed": "Closed",
+    "closedTitle": "This request was closed",
+    "closedBody": "This request was closed without a decision — for example, it may have been withdrawn, replaced by another request, or no longer needed. If you still need this service, contact DMBA Member Services.",
+    "requestInfo": "Request Information",
+    "timeline": "Timeline",
+    "requestedService": "Requested Service",
+    "provider": "Provider",
+    "requestingPhysician": "Ordered By",
+    "diagnosis": "Diagnosis",
+    "requestSubmitted": "Request Submitted",
+    "decisionDate": "Decision Date",
+    "serviceDateNeeded": "Service Date Needed",
+    "validThrough": "Service Must Be Done By",
+    "approvedTitle": "Authorization Approved",
+    "approvedFootnote": "This authorization has been approved by DMBA. Present this authorization number to your provider at the time of service.",
+    "deniedTitle": "Request Not Approved",
+    "deniedDefaultMessage": "This authorization was not approved. Please contact DMBA for more information.",
+    "askQuestionAboutDenial": "Ask a question about this denial",
+    "callDmba": "Call DMBA",
+    "underReviewTitle": "Under Review",
+    "underReviewBody": "DMBA will notify you when a decision has been made. If you have questions, call us.",
+    "authorizationNumber": "Authorization Number",
+    "multipleServices": "Multiple Services",
+    "noPriorAuths": "No preauthorizations on file",
+    "loadError": "Unable to load preauthorizations. Please try again.",
+    "requestedLabel": "Requested",
+    "cardLabel": "{{service}}, {{provider}}, {{status}}, {{date}}",
+    "denialReason": {
+      "exclusionOfThePlan": "This service isn't covered by your plan. Call us if you have questions.",
+      "doesNotMeetMedicalCriteria": "This service wasn't approved based on medical guidelines. Call us if you have questions or want to appeal.",
+      "reachedMaximumBenefit": "You've reached the maximum benefit allowed for this service this year.",
+      "other": "Call us so we can explain the decision."
+    },
+    "letter": {
+      "sectionLabel": "Decision Letter",
+      "sectionTitle": "Decision Letter",
+      "fieldDecision": "Decision",
+      "fieldOrderedBy": "Ordered By",
+      "fieldProcedure": "Procedure",
+      "fieldServiceMustBeDoneBy": "Service Must Be Done By",
+      "fieldGeneratedDate": "Letter Date",
+      "fieldAuthorizationNumber": "Authorization Number",
+      "summaryHeading": "Summary",
+      "criteriaNotMetHeading": "Why This Wasn't Approved",
+      "nextStepsHeading": "Next Steps"
+    },
+    "denialQuestionHint": "Starts a secure message about this decision"
+  },
+  "carousel": {
+    "sectionLabel": "Tips and articles from DMBA",
+    "loading": "Loading articles",
+    "loadError": "Unable to load this article. Please try again.",
+    "notFound": "This article is not available.",
+    "readerTitle": "Article",
+    "readTime": "{{count}} min read",
+    "readTimeLabel": "{{count}} minute read",
+    "cardLabel": "{{title}}, {{category}}, {{readMinutes}} min read"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "The app encountered an unexpected error. Please try again.",
+    "tryAgain": "Try Again"
+  },
+  "appHeader": {
+    "messagesLabel": "Messages",
+    "messagesUnreadLabel": "Messages, {{count}} unread",
+    "homeLabel": "Go to Home",
+    "idCardLabel": "View ID Card"
+  },
+  "settings": {
+    "notifications": {
+      "title": "Notification Preferences",
+      "subtitle": "Choose which types of messages you'd like to receive from DMBA",
+      "requiredNote": "Some notifications are required for important account and policy updates and cannot be disabled.",
+      "categories": {
+        "eob": {
+          "label": "Explanation of Benefits",
+          "description": "Receive notifications when your EOB statements are ready"
+        },
+        "wellness": {
+          "label": "Wellness Communications",
+          "description": "Tips and reminders to help you stay healthy"
+        },
+        "productInfo": {
+          "label": "Product Information",
+          "description": "Updates about new products and services from DMBA"
+        },
+        "benefitsUpdates": {
+          "label": "Benefits Updates",
+          "description": "Changes and improvements to your benefits coverage"
+        },
+        "claimsStatus": {
+          "label": "Claims Updates",
+          "description": "Status changes on your submitted claims"
+        },
+        "policyChanges": {
+          "label": "Policy Changes",
+          "description": "Important changes to your policy and coverage terms"
+        },
+        "paymentReminders": {
+          "label": "Payment Reminders",
+          "description": "Reminders for upcoming premium payments"
+        },
+        "preventiveCare": {
+          "label": "Preventive Care Reminders",
+          "description": "Annual physicals, screenings, and vaccinations"
+        },
+        "prescriptionRefill": {
+          "label": "Prescription Refill Reminders",
+          "description": "Notifications when prescriptions need refilling"
+        },
+        "promotional": {
+          "label": "Promotional Communications",
+          "description": "Special offers and partner benefits"
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy & Security",
+      "securitySection": "Security",
+      "dataSharingSection": "Data Sharing",
+      "biometric": "Face ID / Fingerprint",
+      "biometricDesc": "Sign in faster without entering your password",
+      "biometricNotAvailable": "Not available on this device",
+      "biometricUnavailableTitle": "Biometric Not Available",
+      "biometricUnavailableMessage": "Your device does not support biometric authentication, or no biometrics are enrolled. Check your device settings.",
+      "biometricVerifyPrompt": "Verify your identity to enable biometric login",
+      "disableBiometricTitle": "Disable Biometric Login?",
+      "disableBiometricMessage": "You will need to enter your password each time you sign in.",
+      "disableBiometricConfirm": "Disable",
+      "changePassword": "Change Password",
+      "changePasswordDesc": "Update your account password",
+      "signInVerification": "Sign-in verification",
+      "signInVerificationOn": "On for this device",
+      "signInVerificationOff": "Off",
+      "simulateSignInRequest": "Simulate a sign-in request",
+      "sessionTimeout": "Session Timeout",
+      "sessionTimeoutDesc": "Automatic sign-out after inactivity",
+      "usageAnalytics": "Usage Analytics",
+      "usageAnalyticsDesc": "Help us improve the app by sharing anonymous usage data",
+      "planImprovement": "Plan Improvement Data",
+      "planImprovementDesc": "Share anonymized data to help improve plan offerings",
+      "legalSection": "Legal",
+      "hipaaNotice": "HIPAA Notice of Privacy Practices",
+      "financialPrivacy": "Financial Privacy",
+      "legalStatement": "Legal Statement",
+      "otherNotices": "Other Notices"
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "currentPassword": "Current Password",
+      "currentPasswordPlaceholder": "Enter your current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter your new password",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Re-enter your new password",
+      "submit": "Change Password",
+      "success": "Password Changed",
+      "successMessage": "Your password has been updated successfully.",
+      "errorTitle": "Password Change Failed",
+      "errorBanner": "Password change error",
+      "incorrectPassword": "Current password is incorrect",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "rules": {
+        "minLength": "At least 12 characters",
+        "lowercase": "At least one lowercase letter",
+        "uppercase": "At least one uppercase letter",
+        "number": "At least one number",
+        "symbol": "At least one symbol (e.g., !@#$%^&*)",
+        "noUsername": "Must not contain your username",
+        "noFirstName": "Must not contain your first name",
+        "noLastName": "Must not contain your last name",
+        "match": "Passwords match",
+        "noMatch": "Passwords must match"
+      }
+    },
+    "help": {
+      "title": "Help & Support",
+      "faqSection": "Frequently Asked Questions",
+      "actionsSection": "Support",
+      "contactSupport": "Contact Support",
+      "appFeedback": "App Feedback",
+      "privacyPolicy": "Privacy Policy",
+      "faq": {
+        "viewIdCard": {
+          "question": "How do I view my ID card?",
+          "answer": "Tap the Profile tab, then select Account. Tap \"Access ID Card\" to view your digital insurance card. You can flip it to see front and back, and download or share it."
+        },
+        "findProvider": {
+          "question": "How do I find an in-network provider?",
+          "answer": "Tap the Search tab at the bottom of the screen to access the provider directory. You can search by name, specialty, or location to find in-network providers."
+        },
+        "fileClaim": {
+          "question": "How do I file a claim?",
+          "answer": "Tap the Activity tab, then select Claims. Use the \"Submit a Claim\" button to start the claims process. You will need your provider information and service details."
+        },
+        "checkDeductible": {
+          "question": "How do I check my deductible?",
+          "answer": "Your deductible progress is shown on the Home tab. Tap any progress bar to see detailed in-network and out-of-network deductible and out-of-pocket maximum information."
+        },
+        "contactDmba": {
+          "question": "How do I contact DMBA?",
+          "answer": "Tap \"Contact Support\" below to view phone numbers and business hours. You can call Salt Lake City at 801-578-5600 or toll free at 800-777-3622. Office hours are Monday–Friday, 8 AM–5 PM Mountain Time (Thursday 9 AM–5 PM)."
+        },
+        "changeLanguage": {
+          "question": "How do I change the app language?",
+          "answer": "Go to Profile → Settings. At the top of the Settings tab, tap the language toggle to switch between English and Español."
+        },
+        "enableBiometric": {
+          "question": "How do I enable Face ID or fingerprint login?",
+          "answer": "Go to Profile → Settings → Privacy & Security. Toggle on \"Face ID / Fingerprint\" to enable biometric login. You will be prompted on your next sign-in."
+        },
+        "emergency": {
+          "question": "What should I do in a medical emergency?",
+          "answer": "Call 911 immediately for life-threatening emergencies. For urgent care, find a network provider using the Search tab. Emergency care is covered even out-of-network. Keep your DMBA ID card accessible for providers."
+        }
+      }
+    }
+  },
+  "familyPermissions": {
+    "title": "Family permissions",
+    "whoCanSee": "Who can see your information",
+    "loadError": "Unable to load family permissions.",
+    "groups": {
+      "health": "Health",
+      "financial": "Financial"
+    },
+    "relationships": {
+      "self": "You",
+      "spouse": "Spouse",
+      "child": "Child",
+      "parent": "Parent",
+      "subscriber": "Contract holder"
+    },
+    "sections": {
+      "toggleLabel": "{{section}} for {{name}}",
+      "claims": {
+        "label": "Claims",
+        "description": "See claim status, amounts, and history"
+      },
+      "priorAuths": {
+        "label": "Prior authorizations",
+        "description": "See requests to approve care before it happens"
+      },
+      "spendingAccounts": {
+        "label": "Spending accounts",
+        "description": "See HSA, FSA, and dependent care account balances"
+      },
+      "retirement401k": {
+        "label": "401(k)",
+        "description": "See 401(k) retirement account balance"
+      },
+      "masterRetirement": {
+        "label": "Pension",
+        "description": "See Master Retirement Plan (pension) details"
+      },
+      "lifeInsurance": {
+        "label": "Life insurance",
+        "description": "See life insurance coverage amounts"
+      }
+    },
+    "grantedBy": "Granted by {{name}}",
+    "granted": "Granted",
+    "noGrants": "Nothing has been shared with you yet.",
+    "lastUpdated": "Last updated {{date}}",
+    "hipaa": {
+      "title": "Who can see your health information",
+      "none": "No one else currently has authorization to see your health information.",
+      "expires": "Expires {{date}}",
+      "onFile": "On file, no expiration date"
+    },
+    "individual": {
+      "title": "No family to manage",
+      "message": "Family permissions apply to policies covering more than one person."
+    },
+    "holderEmpty": {
+      "title": "No dependents yet",
+      "message": "Once a dependent is added to your policy, you'll be able to control what they can see here."
+    },
+    "neutralTitle": "Family",
+    "toast": {
+      "saveFailed": "Couldn't save that change. Please try again."
+    }
+  },
+  "messaging": {
+    "topics": {
+      "claims": "Claims",
+      "benefitsCoverage": "Benefits & coverage",
+      "idCard": "ID card",
+      "spendingAccounts": "Spending accounts",
+      "retirement": "Retirement",
+      "priorAuthorization": "Prior authorization",
+      "other": "Other"
+    },
+    "requestContext": {
+      "priorAuthId": "Reference number",
+      "claimNumber": "Claim number",
+      "serviceDate": "Service date",
+      "providerName": "Provider",
+      "patientName": "Patient",
+      "amountBilled": "Amount billed",
+      "serviceDescription": "Service",
+      "alreadyPaid": "Already paid",
+      "alreadyPaidYes": "Yes",
+      "alreadyPaidNo": "No",
+      "denialQuestion": {
+        "title": "Question about a prior authorization denial",
+        "subjectDefault": "Question about a prior authorization denial",
+        "subjectDefaultWithRef": "Question about prior authorization {{ref}}"
+      },
+      "claimSubmission": {
+        "title": "About this claim",
+        "subjectDefault": "Question about a claim",
+        "subjectDefaultWithRef": "Question about claim {{ref}}"
+      },
+      "chatHandoff": {
+        "title": "Started from the AI Benefits Advisor",
+        "turnCount": "Messages in the conversation",
+        "citedTopics": "Topics discussed",
+        "subjectDefault": "Question from the AI Benefits Advisor"
+      }
+    },
+    "relativeTime": {
+      "justNow": "Just now",
+      "minutes_one": "{{count}} minute ago",
+      "minutes_other": "{{count}} minutes ago",
+      "hours_one": "{{count}} hour ago",
+      "hours_other": "{{count}} hours ago",
+      "days_one": "{{count}} day ago",
+      "days_other": "{{count}} days ago"
+    },
+    "inbox": {
+      "title": "Messages",
+      "filter": {
+        "open": "Open",
+        "archived": "Archived"
+      },
+      "filterLabel": "Filter conversations",
+      "loadError": "Unable to load your messages.",
+      "empty": {
+        "open": {
+          "title": "No open conversations",
+          "message": "Start a new message and Member Services will respond here."
+        },
+        "archived": {
+          "title": "Nothing archived",
+          "message": "Archived conversations you've hidden from your inbox show up here."
+        }
+      },
+      "newMessage": "New message",
+      "segments": {
+        "messages": "Messages",
+        "advisor": "AI Advisor"
+      },
+      "segmentsLabel": "Messages and AI Advisor",
+      "noSubject": "No subject",
+      "regarding": "Regarding {{name}}",
+      "threadRowLabel": "{{subject}} {{unread}}",
+      "unreadSuffix": ", unread",
+      "archive": "Archive",
+      "unarchive": "Unarchive",
+      "markUnread": "Mark as unread",
+      "markRead": "Mark as read"
+    },
+    "compose": {
+      "title": "New message",
+      "topic": "Topic",
+      "topicPlaceholder": "Select a topic",
+      "claimSubmissionLink": "Submitting a new claim? Use the claim form",
+      "regarding": "Regarding",
+      "regardingHelp": "Optional — choose a family member if this is about them.",
+      "regardingPlaceholder": "Select a family member",
+      "subject": "Subject",
+      "body": "Message",
+      "attachments": "Attachments",
+      "attachmentsHelp": "Add up to {{max}} files — photos or PDFs, 10 MB each.",
+      "attachmentFailed": "Upload failed",
+      "retryUpload": "Retry upload",
+      "removeAttachment": "Remove {{fileName}}",
+      "takePhoto": "Take photo",
+      "chooseFromLibrary": "Choose photo",
+      "attachPdf": "Attach PDF",
+      "send": "Send",
+      "discardGuard": {
+        "title": "Discard this message?",
+        "message": "You have an unsent message. If you leave now, it will be lost.",
+        "confirm": "Discard"
+      },
+      "sendHint": "Sends your message to DMBA Member Services"
+    },
+    "thread": {
+      "title": "Conversation",
+      "loadError": "Unable to load this conversation.",
+      "empty": "No messages yet.",
+      "archivedBanner": "This conversation is archived. Replying moves it back to Open.",
+      "attach": "Attach a file",
+      "replyPlaceholder": "Write a reply",
+      "send": "Send reply",
+      "attachmentDownloadFailed": "Couldn't open that attachment. Please try again.",
+      "viewAttachment": "View {{fileName}}",
+      "shareAttachment": "Share {{fileName}}",
+      "attachmentViewerTitle": "Attachment",
+      "attachmentLoadError": "Unable to load this attachment.",
+      "attachmentImageLabel": "Attachment image",
+      "attachmentUnsupported": "This attachment can't be displayed.",
+      "attachmentScanPending": "Checking this file for safety…",
+      "attachmentBlocked": "This file was removed by a security check.",
+      "viewerAcknowledged": "This attachment is a PDF. Open it to view or share the file.",
+      "openAttachment": "Open",
+      "archiveHint": "Moves this conversation to your archive",
+      "unarchiveHint": "Moves this conversation back to your inbox",
+      "markUnreadHint": "Marks this conversation unread",
+      "markReadHint": "Marks this conversation read",
+      "sendHint": "Sends your reply to DMBA Member Services",
+      "attachHint": "Choose a photo, take a photo, or attach a PDF",
+      "systemLabel": "DMBA Member Services",
+      "systemAck": {
+        "general": "Thanks — we received your message. A Member Services representative will reply here as soon as possible.",
+        "claimSubmission": "Thanks — we've received your claim. A Member Services representative will reply here as soon as possible."
+      }
+    },
+    "errors": {
+      "topicInvalid": "Choose a topic for your message.",
+      "subjectRequired": "Enter a subject.",
+      "subjectTooLong": "Subject is too long.",
+      "bodyRequired": "Enter a message.",
+      "bodyTooLong": "Message is too long.",
+      "kindInvalid": "Something went wrong. Please try again.",
+      "contextTooLarge": "Something went wrong. Please try again.",
+      "regardingNotVisible": "That family member isn't available to select. Please try again.",
+      "attachmentsTooMany": "You can attach up to 5 files.",
+      "attachmentsNotFound": "One of your attachments couldn't be found. Please add it again.",
+      "attachmentMissing": "That attachment couldn't be found.",
+      "attachmentTooLarge": "That file is larger than 10 MB.",
+      "attachmentUnreadable": "That file couldn't be read.",
+      "attachmentUnsupportedFormat": "That file type isn't supported. Use a JPEG, PNG, or PDF.",
+      "attachmentFileNameInvalid": "That file's name isn't valid.",
+      "attachmentsRejected": "One of your attachments failed a security check and was removed. Remove it and try again.",
+      "attachmentActiveContent": "That PDF contains active content we can't accept. Attach a photo of the document instead.",
+      "attachmentDimensionsTooLarge": "That image is too large. Resize it or take a photo with the camera instead.",
+      "unknown": "Something went wrong. Please contact Member Services if this continues.",
+      "sendFailed": "Couldn't send your message. Please try again.",
+      "attachmentsStillUploading": "Wait for your attachments to finish uploading.",
+      "attachment": {
+        "captureFailed": "Couldn't add that file. Please try again.",
+        "unsupportedFormat": "That file type isn't supported. Use a JPEG, PNG, or PDF.",
+        "tooLarge": "That file is larger than 10 MB.",
+        "tooManyAttachments": "You can attach up to 5 files.",
+        "uploadFailed": "Upload failed. Tap to retry."
+      }
+    }
+  },
+  "chat": {
+    "sheet": {
+      "newChat": "New chat",
+      "newChatHint": "Starts a fresh conversation with the advisor",
+      "closeHint": "Closes the advisor. Your conversation is saved"
+    },
+    "fab": {
+      "hint": "Opens the AI Benefits Advisor",
+      "resumeLabel": "AI Benefits Advisor, conversation in progress",
+      "resumeHint": "Continues your recent conversation"
+    },
+    "history": {
+      "newChatHint": "Starts a new conversation with the advisor"
+    },
+    "newConversation": "New conversation",
+    "placeholder": "Ask about your benefits",
+    "send": "Send",
+    "typing": "The assistant is typing",
+    "disclaimer": "Answers are generated from DMBA's approved benefits content and can be wrong — your plan documents are the final word, and this is not a coverage determination.",
+    "refusal": "I couldn't find a clear answer to that in DMBA's approved benefits content.",
+    "talkToPerson": "Send this to Member Services",
+    "handoffSent": "Sent to Member Services",
+    "archiveFailed": "Couldn't update this conversation. Please try again.",
+    "unavailable": "The AI Benefits Advisor isn't available right now.",
+    "rateLimited": "You've sent a lot of messages. Please wait a moment before sending another.",
+    "sendFailed": "Couldn't send that message. Please try again.",
+    "loadError": "Unable to load this conversation.",
+    "empty": {
+      "title": "No conversations yet",
+      "message": "Ask the AI Benefits Advisor a question about your coverage to get started."
+    },
+    "suggested": {
+      "title": "Try asking",
+      "hint": "Fills the message box with this question",
+      "q1": "What's my deductible this year?",
+      "q2": "Is this procedure covered by my plan?",
+      "q3": "How do I use my HSA to pay for an expense?",
+      "q4": "What's the difference between my medical plans?"
+    },
+    "citations": {
+      "source": "Source: {{title}}"
+    },
+    "menu": {
+      "label": "More options",
+      "hint": "Sends this conversation to Member Services",
+      "talkToPerson": "Send this to Member Services",
+      "title": "Conversation options"
+    },
+    "status": {
+      "handedOff": "Sent to Member Services"
+    },
+    "handedOffNotice": "You've sent this conversation to Member Services. They'll reply in Messages.",
+    "handedOffViewThread": "View in Messages",
+    "archive": "Archive",
+    "unarchive": "Unarchive",
+    "archiveHint": "Moves this conversation to your archive",
+    "unarchiveHint": "Moves this conversation back to your conversation list",
+    "filter": {
+      "active": "Active",
+      "archived": "Archived"
+    },
+    "filterLabel": "Filter conversations",
+    "emptyArchived": {
+      "title": "No archived conversations",
+      "message": "Swipe a conversation to the right to archive it."
+    }
+  },
+  "spendingClaims": {
+    "receipt": {
+      "title": "Add a receipt",
+      "subtitle": "Take a photo of your itemized receipt. Make sure the provider, date, and amount are readable.",
+      "capturePrompt": "Fit the whole receipt in the frame",
+      "takePhoto": "Take photo",
+      "chooseFromPhotos": "Choose from photos",
+      "pageLabel": "Receipt page {{number}}",
+      "pageAdded": "Receipt page {{number}} added",
+      "remove": "Remove",
+      "removePage": "Remove receipt page {{number}}",
+      "maxPagesReached": "You've added the maximum of {{count}} pages.",
+      "permissionTitle": "Camera access needed",
+      "permissionBody": "Turn on camera access in Settings to photograph your receipt.",
+      "openSettings": "Open Settings",
+      "size": {
+        "kb": "{{value}} KB",
+        "mb": "{{value}} MB"
+      },
+      "error": {
+        "captureFailed": "We couldn't take that photo. Please try again.",
+        "unsupportedFormat": "That file type isn't accepted. Please take a photo instead.",
+        "tooLarge": "That photo is too large to upload. Try taking it again from a little further back.",
+        "storageFailed": "We couldn't save that photo on your device. Please try again.",
+        "tooManyPages": "You've already added the maximum number of pages."
+      }
+    },
+    "submitSuccess": "Claim submitted",
+    "receiptAttached": "Receipt attached",
+    "errors": {
+      "submitTitle": "Claim not submitted",
+      "receiptTitle": "Receipt not attached",
+      "validation": "Please check the details you entered and try again.",
+      "receiptTooLarge": "That photo is too large. Try taking it again.",
+      "unsupportedType": "That file type can't be attached. Use a photo or PDF.",
+      "serviceUnavailable": "We couldn't reach the claims service. Please try again in a few minutes.",
+      "offline": "You appear to be offline. Check your connection and try again.",
+      "unknown": "Something went wrong. Please try again.",
+      "rateLimited": "Just a moment — please try again shortly."
+    },
+    "serverErrors": {
+      "categoryNotOffered": "That expense type isn't available on your plan. Pick another one.",
+      "categoryNotDirectSubmit": "This expense type can't be submitted in the app. Contact Member Services to file it.",
+      "claimantNotOnAccount": "That person isn't covered on your plan. Pick someone else.",
+      "amountRequired": "Enter the amount you paid.",
+      "amountOverCeiling": "That amount looks higher than expected — check what you entered. If the expense really was more than {{max}}, contact Member Services to file it.",
+      "amountTooPrecise": "Enter the amount in dollars and cents, like 42.50.",
+      "serviceDateEndBeforeStart": "The end date can't be before the start date.",
+      "serviceDateFuture": "Enter the date you received the service. It can't be in the future.",
+      "serviceDateSameMonth": "This plan doesn't accept claims for services in the current month yet. You can submit it next month.",
+      "serviceDateBeforeWindow": "That date is before your plan year started on {{startDate}}.",
+      "serviceDateAfterWindow": "That date is after your plan year ended on {{endDate}}.",
+      "deadlinePassed": "Claims for this plan year had to be submitted by {{date}}. Contact Member Services if you have questions.",
+      "providerRequired": "Enter who you paid.",
+      "providerTooLong": "That name is too long. Please shorten it.",
+      "notesTooLong": "Those comments are too long. Please shorten them.",
+      "receiptMissing": "Add a photo of your receipt.",
+      "receiptTooLarge": "That photo is larger than {{maxSize}}. Try taking it again from a little further back.",
+      "receiptUnreadable": "We couldn't read that file. Please take the photo again.",
+      "receiptUnsupportedFormat": "We couldn't tell what kind of file that is. Please take a photo of your receipt instead.",
+      "receiptFormatNotAccepted": "That file type isn't accepted for receipts. Use a photo or a PDF.",
+      "unknown": "We couldn't complete that. Please try again, or contact Member Services if it keeps happening.",
+      "requestProblem": "Something went wrong on our end. Please try again."
+    },
+    "title": "Submit a claim",
+    "entryPoint": "Submit a claim",
+    "entryPointHint": "Request reimbursement or document a card payment",
+    "continue": "Continue",
+    "submit": "Submit claim",
+    "submitting": "Submitting…",
+    "loadError": "We couldn't load the claim form. Please try again.",
+    "stepProgress": "Step {{current}} of {{total}}",
+    "stepProgressLabel": "Progress through the claim form",
+    "vendorCopyNote": "This information comes from DMBA's spending-account administrator and is only available in English.",
+    "discardGuard": {
+      "title": "Discard this claim?",
+      "message": "If you leave now, anything you've entered — including any photos you've taken — will be lost.",
+      "confirm": "Discard claim"
+    },
+    "substantiate": {
+      "title": "Send a receipt",
+      "send": "Send receipt",
+      "sending": "Sending…",
+      "discardGuard": {
+        "title": "Discard this receipt?",
+        "message": "If you leave now, the photo you've taken won't be sent.",
+        "confirm": "Discard receipt"
+      },
+      "loadError": "We couldn't load your card payments. Please try again.",
+      "pick": {
+        "question": "Which card payment is this receipt for?",
+        "subtitle": "These are the payments we've been asked to document. Pick the one that matches your receipt.",
+        "chargeRow": "{{merchant}}, {{amount}}, {{date}}",
+        "showOlder": "Show older payments"
+      },
+      "capture": {
+        "documenting": "Sending a receipt for",
+        "offlineBlock": "You're offline, so this receipt can't be sent yet. It's saved — come back when you have a connection."
+      },
+      "empty": {
+        "title": "Nothing needs a receipt",
+        "body": "None of your recent card payments are waiting on documentation.",
+        "reimbursementHint": "If you paid another way and want the money back, use \"Ask to be paid back\" instead."
+      },
+      "done": {
+        "title": "Receipt sent",
+        "subtitle": "We've sent it to DMBA's spending-account administrator. Nothing else is needed from you."
+      }
+    },
+    "viewer": {
+      "title": "Receipt",
+      "imageLabel": "Photo of your receipt",
+      "loadError": "We couldn't open that receipt. Please try again.",
+      "acknowledgedNotice": "This receipt is on file as a document rather than a photo, so it can't be shown here. Contact Member Services if you need a copy.",
+      "unsupported": "We can't display this file here. Contact Member Services if you need a copy."
+    },
+    "fields": {
+      "serviceCategory": "Type of expense",
+      "claimant": "Who was this for?",
+      "serviceStartDate": "Date of service",
+      "serviceEndDate": "End date",
+      "amount": "Amount you paid",
+      "provider": "Who you paid",
+      "notes": "Comments",
+      "reimbursementMethod": "How you'll be paid",
+      "deductibleAmount": "Deductible",
+      "coinsuranceAmount": "Coinsurance",
+      "copayAmount": "Copay"
+    },
+    "steps": {
+      "fork": {
+        "title": "What happened?"
+      },
+      "whatYouNeed": {
+        "title": "Before you start"
+      },
+      "category": {
+        "title": "Type of expense"
+      },
+      "claimant": {
+        "title": "Who was this for?"
+      },
+      "details": {
+        "title": "Claim details"
+      },
+      "receipt": {
+        "title": "Your receipt"
+      },
+      "review": {
+        "title": "Review and submit"
+      },
+      "submitted": {
+        "title": "Claim submitted"
+      }
+    },
+    "fork": {
+      "question": "What would you like to do?",
+      "subtitle": "These are two different things, so it's worth checking which one you need.",
+      "cardCharge": {
+        "title": "Send a receipt for a card payment",
+        "body": "You already paid with your DMBA benefits card and were asked for documentation.",
+        "outcome": "No money moves — you're documenting a payment you already made.",
+        "noCard": "You don't have an active benefits card, so there's nothing to document."
+      },
+      "reimbursement": {
+        "title": "Ask to be paid back",
+        "body": "You paid another way — cash, a personal card, or a cheque — and want the money back.",
+        "outcome": "Money moves — you'll be reimbursed from your account."
+      }
+    },
+    "whatYouNeed": {
+      "title": "What you'll need",
+      "subtitle": "Have these ready so you don't have to start over.",
+      "itemizedReceipt": "An itemized receipt or statement — not just a card slip",
+      "serviceDate": "The date you received the service",
+      "amount": "The amount you paid",
+      "provider": "The name of who you paid",
+      "footnote": "You can take a photo of your receipt during this process — you don't need to upload it beforehand.",
+      "day": {
+        "providerTaxId": "Your care provider's Tax ID number",
+        "dependentDetails": "Your dependent's full name and date of birth"
+      }
+    },
+    "category": {
+      "question": "What kind of expense was this?",
+      "subtitle": "This decides which of your accounts pays the claim, so pick the closest match.",
+      "payrollFundedNote": "Dependent Care claims are paid from what has been taken out of your pay so far, not your full yearly election. If your claim is for more than that, the rest is paid as more is deducted."
+    },
+    "categories": {
+      "medical": {
+        "helper": "Use this for anything health-related that isn't dental, vision, pharmacy or dependent care.",
+        "examples": "Doctor visits, hospital bills, physical therapy, chiropractic, medical equipment"
+      },
+      "dental": {
+        "examples": "Cleanings, fillings, crowns, braces, oral surgery"
+      },
+      "vision": {
+        "examples": "Eye exams, glasses, contact lenses, prescription sunglasses"
+      },
+      "rx": {
+        "examples": "Prescription medicines and pharmacy copays"
+      },
+      "supplies": {
+        "label": "Supplies & over-the-counter items",
+        "helper": "Things you buy without a prescription.",
+        "examples": "Bandages, pain relievers, allergy medicine, thermometers, sunscreen"
+      },
+      "day": {
+        "helper": "Care for a child or adult dependent so that you can work.",
+        "examples": "Daycare, preschool, after-school care, day camp, adult day care"
+      }
+    },
+    "claimant": {
+      "question": "Who was this expense for?",
+      "subtitle": "You can file a claim for yourself or anyone covered on your plan.",
+      "self": "You",
+      "dependent": "Covered on your plan"
+    },
+    "details": {
+      "title": "Tell us about the expense",
+      "endDateHelp": "Only needed if the service covered more than one day.",
+      "providerHelp": "The clinic, pharmacy, or provider you paid."
+    },
+    "receiptRequirements": {
+      "title": "What your receipt needs to show",
+      "subtitle": "Receipts missing any of these are usually denied, so it's worth checking before you take the photo.",
+      "mustShow": "Your receipt must show:",
+      "provider": "Who you paid — the provider or store name",
+      "date": "The date you received the service or bought the item",
+      "description": "What it was for — the service or item, not just \"payment\"",
+      "amount": "The amount you paid",
+      "notAcceptable": "A card slip showing only a total isn't enough on its own — it doesn't say what the charge was for.",
+      "example": {
+        "providerName": "Wasatch Family Dental",
+        "providerCallout": "Provider name",
+        "dateLabel": "Date of service",
+        "dateValue": "May 14, 2026",
+        "descriptionLabel": "Description",
+        "descriptionValue": "Routine cleaning",
+        "amountLabel": "Amount paid",
+        "amountValue": "$85.00"
+      }
+    },
+    "review": {
+      "title": "Check your claim",
+      "serviceDates": "Date of service",
+      "receipts": "Receipt",
+      "noReceipt": "No receipt attached",
+      "receiptCount_one": "{{count}} page attached",
+      "receiptCount_other": "{{count}} pages attached",
+      "accountNote": "DMBA's spending-account administrator decides which of your accounts pays this claim, based on the type of expense you chose.",
+      "certificationTitle": "What you're agreeing to",
+      "certifyLabel": "I have read and agree to the statement above.",
+      "offlineBlock": "You're offline, so this claim can't be submitted yet. Your receipt is saved — come back when you have a connection."
+    },
+    "submitted": {
+      "title": "Claim submitted",
+      "subtitle": "We've sent your claim to DMBA's spending-account administrator."
+    },
+    "validation": {
+      "required": "This field is required.",
+      "amountNumeric": "Enter an amount using numbers only.",
+      "amountDecimals": "Enter the amount in dollars and cents, like 42.50.",
+      "amountPositive": "Enter an amount greater than zero.",
+      "amountMax": "That amount looks higher than expected — check what you entered.",
+      "dateInvalid": "Enter a real date.",
+      "endBeforeStart": "The end date can't be before the start date.",
+      "dateInFuture": "Enter the date you received the service. It can't be in the future.",
+      "sameMonthService": "This plan doesn't accept claims for services in the current month yet. You can submit it next month.",
+      "dateOutsidePlanWindow": "That date is outside your plan year.",
+      "submitDeadlinePassed": "The last day to submit claims for this plan year was {{date}}. Contact Member Services if you have questions.",
+      "categoryNotOffered": "That expense type isn't available on your plan.",
+      "claimantNotEligible": "That person isn't covered on your plan.",
+      "providerMaxLength": "That name is too long. Please shorten it.",
+      "notesMaxLength": "Those comments are too long. Please shorten them."
+    },
+    "status": {
+      "submitted": "Submitted",
+      "pending": "In review",
+      "approved": "Approved",
+      "paid": "Paid",
+      "denied": "Denied"
+    }
+  },
+  "claimSubmission": {
+    "title": "Submit a claim",
+    "continue": "Continue",
+    "submit": "Submit claim",
+    "submitting": "Submitting…",
+    "stepProgress": "Step {{current}} of {{total}}",
+    "stepProgressLabel": "Progress through the claim form",
+    "autoSubject": "Medical claim — {{provider}} — {{date}}",
+    "autoBody": "New medical claim submitted via the DMBA app.\n\nPatient: {{patient}}\nProvider: {{provider}}\nDate of service: {{date}}\nAmount billed: {{amount}}\nWhat the service was: {{description}}\nAlready paid: {{alreadyPaid}}",
+    "discardGuard": {
+      "title": "Discard this claim?",
+      "message": "If you leave now, anything you've entered — including any files you've attached — will be lost.",
+      "confirm": "Discard claim"
+    },
+    "patient": {
+      "question": "Who was this claim for?",
+      "subtitle": "Choose yourself or a family member covered on your plan.",
+      "placeholder": "Select who this claim is for",
+      "self": "You"
+    },
+    "details": {
+      "title": "Claim details"
+    },
+    "attachments": {
+      "title": "Attachments",
+      "subtitle": "Attach a photo or PDF of your itemized bill. A proof of payment is optional.",
+      "bill": "Itemized bill",
+      "billHelp": "Required — a bill showing the provider, date, and charges.",
+      "proof": "Proof of payment",
+      "proofHelp": "Optional — a receipt or statement showing you paid.",
+      "maxCombinedNote": "You can attach up to {{max}} files total across both."
+    },
+    "review": {
+      "title": "Review your claim",
+      "summary": "Claim summary",
+      "attachments": "Attachments",
+      "attachmentCount": "{{bill}} bill, {{proof}} proof of payment",
+      "note": "We'll route this to DMBA Member Services, who will follow up on your claim thread."
+    },
+    "fields": {
+      "patient": "Patient",
+      "provider": "Provider name",
+      "serviceDate": "Date of service",
+      "amount": "Amount billed",
+      "description": "What the service was",
+      "descriptionHelp": "A short description, like \"Annual physical\" or \"X-ray, left ankle.\"",
+      "alreadyPaid": "Have you already paid for this?"
+    },
+    "alreadyPaid": {
+      "yes": "Yes, I already paid",
+      "no": "No, not yet"
+    },
+    "errors": {
+      "patientRequired": "Choose who this claim is for.",
+      "providerRequired": "Enter the provider's name.",
+      "providerTooLong": "That name is too long. Please shorten it.",
+      "serviceDateRequired": "Enter the date you received the service.",
+      "serviceDateInvalid": "Enter a valid date.",
+      "serviceDateFuture": "The date of service can't be in the future.",
+      "serviceDateTooOld": "That date is more than 24 months ago. Contact Member Services for an older claim.",
+      "amountRequired": "Enter the amount billed.",
+      "amountInvalid": "Enter a valid dollar amount, like 42.50.",
+      "amountTooManyDecimals": "Enter the amount in dollars and cents, like 42.50.",
+      "amountNotPositive": "Enter an amount greater than $0.",
+      "descriptionRequired": "Enter what the service was.",
+      "descriptionTooLong": "That description is too long. Please shorten it.",
+      "alreadyPaidRequired": "Let us know whether you've already paid.",
+      "billAttachmentRequired": "Attach a photo or PDF of your itemized bill.",
+      "attachmentsTooMany": "You can attach up to {{max}} files total.",
+      "submitFailed": "We couldn't submit your claim. Please try again."
+    },
+    "steps": {
+      "patient": {
+        "title": "Who was this for?"
+      },
+      "details": {
+        "title": "Claim details"
+      },
+      "attachments": {
+        "title": "Attachments"
+      },
+      "review": {
+        "title": "Review and submit"
+      },
+      "submitted": {
+        "title": "Claim submitted"
+      }
+    }
+  },
+  "forms": {
+    "required": "Required",
+    "select": "Select an option",
+    "closeOptions": "Close options",
+    "selectDate": "Select a date",
+    "closeDatePicker": "Close date picker"
+  },
+  "deviceAuth": {
+    "enroll": {
+      "title": "Sign-in verification",
+      "notEnrolledTitle": "Approve sign-ins from this phone",
+      "notEnrolledBody": "Turn this on and, when you sign in to dmba.com, we'll send this phone a request to approve. You confirm with Face ID or your fingerprint instead of a code.",
+      "setUpButton": "Set up",
+      "setUpAgainButton": "Set up again",
+      "browserNote": "You'll be asked to sign in to DMBA again so we know it's you.",
+      "biometricsNotEnrolledTitle": "Set up Face ID or your fingerprint first",
+      "biometricsNotEnrolledBody": "Approving a sign-in always takes Face ID or a fingerprint, so your phone needs one set up before you can turn this on. Add it in your phone's settings, then come back.",
+      "pushDeniedTitle": "Notifications are turned off",
+      "pushDeniedBody": "We send the approval request as a notification, so notifications for the DMBA app need to be allowed.",
+      "openSettingsButton": "Open Settings",
+      "openSettingsHint": "Opens the DMBA app's settings on your phone",
+      "enrolledTitle": "This phone approves your sign-ins",
+      "enrolledBody": "When you sign in to dmba.com, we'll send this phone a request to approve with Face ID or your fingerprint.",
+      "deviceLabel": "Device",
+      "setUpOn": "Set up",
+      "removeButton": "Remove this device",
+      "removeHint": "Asks you to confirm, then to sign in to DMBA again",
+      "removeConfirmTitle": "Remove this device?",
+      "removeConfirmMessage": "You'll go back to your other sign-in method for dmba.com. You can set this phone up again at any time.",
+      "removeConfirm": "Remove",
+      "invalidatedBiometricTitle": "Set up sign-in verification again",
+      "invalidatedBiometricBody": "Face ID or your fingerprint changed on this phone, so the approval it was using is no longer valid. Setting it up again takes a moment.",
+      "invalidatedRemovedTitle": "This device was removed",
+      "invalidatedRemovedBody": "This phone is no longer set up to approve sign-ins for your account. You can set it up again below.",
+      "errorBody": "We couldn't check whether this phone is set up to approve sign-ins.",
+      "unsupportedTitle": "Not available on this device",
+      "unsupportedBody": "This phone can't be used to approve dmba.com sign-ins. You can keep using your other sign-in method.",
+      "enrolledAnnouncement": "Sign-in verification is on for this device.",
+      "removedAnnouncement": "Sign-in verification has been removed from this device."
+    },
+    "verify": {
+      "title": "Approve sign-in?",
+      "body": "Someone signed in with your DMBA username and password and needs to confirm it's you. If this wasn't you, deny it.",
+      "originLabel": "Sign-in request from",
+      "unknownOrigin": "We weren't told where this request came from",
+      "issuedAtLabel": "Requested at",
+      "expiresIn_one": "Expires in {{count}} second",
+      "expiresIn_other": "Expires in {{count}} seconds",
+      "approve": "Approve",
+      "approveHint": "Completes the sign-in on the other device",
+      "deny": "Deny — I didn't try to sign in",
+      "denyHint": "Stops the sign-in on the other device",
+      "biometricPrompt": "Confirm it's you to approve this sign-in",
+      "biometricCancel": "Cancel",
+      "done": "Done",
+      "changePassword": "Change your password",
+      "result": {
+        "approved": {
+          "title": "Approved",
+          "message": "You're signed in on the other device. You can close this."
+        },
+        "denied": {
+          "title": "Sign-in denied",
+          "message": "Nobody was signed in. If you didn't try to sign in, change your password — someone else may know it."
+        },
+        "expired": {
+          "title": "This request expired",
+          "message": "Sign-in requests are only good for a short time. Try signing in again to get a new one."
+        },
+        "userVerificationCancelled": {
+          "title": "Sign-in denied",
+          "message": "We couldn't confirm it was you, so the sign-in was denied. Try again, or change your password if it wasn't you."
+        },
+        "userVerificationFailed": {
+          "title": "Sign-in denied",
+          "message": "Your phone couldn't confirm it was you, so the sign-in was denied. Check that Face ID or your fingerprint is set up, then try again."
+        },
+        "failed": {
+          "title": "Something went wrong",
+          "message": "We couldn't reach DMBA to answer this request. Check your connection and try signing in again."
+        }
+      }
+    }
+  }
+}
